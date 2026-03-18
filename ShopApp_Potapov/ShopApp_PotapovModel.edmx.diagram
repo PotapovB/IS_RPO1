@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="1490926196974c85bce6fa04756af5c6" Name="Diagram1">
+        <EntityTypeShape EntityType="ShopApp_PotapovModel.Categories" PointX="0.75" PointY="4" Width="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ShopApp_PotapovModel.Clients" PointX="7.875" PointY="4.875" Width="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ShopApp_PotapovModel.OrderItems" PointX="12.375" PointY="2.875" Width="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ShopApp_PotapovModel.Orders" PointX="10.125" PointY="4.625" Width="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ShopApp_PotapovModel.Products" PointX="0.75" PointY="0.75" Width="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ShopApp_PotapovModel.Roles" PointX="5.5" PointY="1.75" Width="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ShopApp_PotapovModel.Users" PointX="5.625" PointY="4.875" Width="1.5" IsExpanded="true" />
+        <AssociationConnector ManuallyRouted="false" Association="ShopApp_PotapovModel.FK_Products_Categories" />
+        <AssociationConnector ManuallyRouted="false" Association="ShopApp_PotapovModel.FK_Clients_Users" />
+        <AssociationConnector ManuallyRouted="false" Association="ShopApp_PotapovModel.FK_Orders_Clients" />
+        <AssociationConnector ManuallyRouted="false" Association="ShopApp_PotapovModel.FK_OrderItems_Orders" />
+        <AssociationConnector ManuallyRouted="false" Association="ShopApp_PotapovModel.FK_OrderItems_Products" />
+        <AssociationConnector ManuallyRouted="false" Association="ShopApp_PotapovModel.FK_Orders_Users" />
+        <AssociationConnector ManuallyRouted="false" Association="ShopApp_PotapovModel.FK_Users_Roles" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
